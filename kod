@@ -1,0 +1,38 @@
+class hesapmakinesi:
+    def __init__(self,say1,say2):
+        self.say1=say1
+        self.say2=say2
+        self.hafiza=[]
+                                                 
+    def topla(self):
+        sonuc = self.say1 + self.say2
+        self.hafiza.append(sonuc)
+        print(sonuc)
+
+    def carp(self):
+        sonuc = self.say1 * self.say2
+        self.hafiza.append(sonuc)
+        print(sonuc)
+
+
+
+
+
+
+
+        class carpimtablosu:
+    def __init__(self, say1):
+        self.say1=say1
+        self.hafiza=[]                                
+
+    def yazdir(self):
+        a = 10
+        for i in range(10):
+            print(f"{self.say1} x {a} = {self.say1 * a}")
+            a = a - 1
+
+
+c = carpimtablosu (9)
+c.yazdir()
+
+
